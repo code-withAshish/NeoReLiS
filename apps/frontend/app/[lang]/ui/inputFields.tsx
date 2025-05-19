@@ -24,11 +24,11 @@ export const Inputfields = ({
     }
     if (
       !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
-        input
+        input,
       )
     ) {
       setError(
-        "Password must have 8+ characters, uppercase, lowercase, number & special character."
+        "Password must have 8+ characters, uppercase, lowercase, number & special character.",
       );
     } else {
       setError("");
