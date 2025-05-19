@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { VideosData } from "../../../../packages/data/videosdata";
+import { VideosData } from "../../../../../packages/data/videosdata";
 
 export type Video = {
   url: string;

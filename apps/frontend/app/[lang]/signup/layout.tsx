@@ -2,13 +2,18 @@
 
 import { CgProfile } from "react-icons/cg";
 import { AnimatedBubbleBg } from "../component/bubbleanimationbg";
-import { InputFieldsData } from "../../../../packages/data/InputFieldData";
+import { InputFieldsData } from "../../../../../packages/data/InputFieldData";
 import { SigninButtons } from "../ui/signinButtons";
-import { signinButtonsData } from "../../../../packages/data/signinbuttondata";
+import { signinButtonsData } from "../../../../../packages/data/signinbuttondata";
 import { Inputfields } from "../ui/inputFields";
 import { useState } from "react";
+import { getDictionary } from "../../../get-dictionary";
 
-export default function SignUP() {
+export default function SignUP({
+  dictionary,
+}: {
+  dictionary: Awaited<ReturnType<typeof getDictionary>>["signup"];
+}) {
   const [password, setPassword] = useState<string>("");
 
   return (
@@ -18,20 +23,18 @@ export default function SignUP() {
       {/* Main Heading */}
       <div className="z-10 w-[40%] h-[18%]">
         <h2 className="font-bold text-4xl text-center text-[#304D69] mb-2">
-          ReLis
+          {dictionary.siteName}
         </h2>
         <h3 className="font-medium text-lg text-center text-[#6B829A]">
-          Your Systematic Review Companion
+          {dictionary.tagline}
         </h3>
       </div>
 
       <div className="z-10 flex flex-col bg-white/10 shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] w-[30%] h-[84%] rounded-xl p-6 border border-[#6B829A]/40 mb-4">
         <h3 className="text-[#304D69] font-medium text-3xl mb-2">
-          Create an Account
+          {dictionary.title}
         </h3>
-        <h3 className="text-[#6B829A] text-md mb-2">
-          Enter your details to create your account
-        </h3>
+        <h3 className="text-[#6B829A] text-md mb-2">{dictionary.subtitle}</h3>
 
         {/* Sign-in Buttons */}
         <div className="flex">
@@ -54,7 +57,7 @@ export default function SignUP() {
 
         {/* Submit Button */}
         <div className="relative w-full h-[9%] bg-[#304D69] rounded-xl text-white text-lg font-semibold text-center py-2 mb-2">
-          <span>Create Account</span>
+          <span>{dictionary.createAccountButton}</span>
           <CgProfile
             size={30}
             color="white"
@@ -64,8 +67,10 @@ export default function SignUP() {
 
         {/* Sign-in */}
         <div className="w-full h-[9%] text-center">
-          <span className="text-[#6B829A]">Already have an account?</span>
-          <span className="text-[#304D69] ml-1">Sign in</span>
+          <span className="text-[#6B829A]">
+            {dictionary.alreadyHaveAccount}
+          </span>
+          <span className="text-[#304D69] ml-1">{dictionary.signIn}</span>
         </div>
       </div>
     </div>

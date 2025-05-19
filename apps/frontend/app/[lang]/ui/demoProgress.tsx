@@ -1,4 +1,4 @@
-import { ProgressStepsData } from "../../../../packages/data/progresStepsData";
+import { ProgressStepsData } from "../../../../../packages/data/progresStepsData";
 import { ProgresSteps } from "./progresSteps";
 import { motion } from "framer-motion";
 

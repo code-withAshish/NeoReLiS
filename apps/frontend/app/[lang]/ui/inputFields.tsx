@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { InputFieldProps } from "../../../../packages/data/InputFieldData";
+import { InputFieldProps } from "../../../../../packages/data/InputFieldData";
 
 export const Inputfields = ({
   icon: Icon,
@@ -24,11 +24,11 @@ export const Inputfields = ({
     }
     if (
       !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
-        input,
+        input
       )
     ) {
       setError(
-        "Password must have 8+ characters, uppercase, lowercase, number & special character.",
+        "Password must have 8+ characters, uppercase, lowercase, number & special character."
       );
     } else {
       setError("");

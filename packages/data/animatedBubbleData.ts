@@ -1,4 +1,4 @@
-import { IconProp } from "../../apps/frontend/app/ui/animatedBubble";
+import { IconProp } from "../../apps/frontend/app/[lang]/ui/animatedBubble";
 import { FaAtom, FaDna, FaPen, FaRegEye } from "react-icons/fa";
 import { CgFileDocument, CgTree } from "react-icons/cg";
 import { FaResearchgate } from "react-icons/fa";

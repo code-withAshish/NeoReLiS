@@ -1,0 +1,77 @@
+{
+  "signup": {
+    "siteName": "ReLis",
+    "tagline": "Your Systematic Review Companion",
+    "title": "Create an Account",
+    "subtitle": "Enter your details to create your account",
+    "createAccountButton": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "inputFields": {
+      "email": "Email Address",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    }
+  },
+  "navbar": {
+    "siteName": "ReLis",
+    "navLinks": {
+      "home": "Home",
+      "features": "Features",
+      "documentation": "Documentation",
+      "about": "About"
+    },
+    "logIn": "Log In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Systematic Literature Review Tool",
+    "headline": "Accelerate Your Systematic Reviews",
+    "subheadline": "ReLis streamlines the systematic review process with powerful planning, searching and analysis tools. Save time and increase accuracy your research.",
+    "getStarted": "Get Started Now",
+    "watchDemo": "Watch Demo"
+  },
+  "newReleases": {
+    "title": "New Releases",
+    "announcementTitle": "New Release Announcement!!",
+    "announcementBody": "We are excited to announce the latest release of our project. You can use your existing credentials from previous releases to access the new features. Please note that projects from previous releases are not imported but can be accessed at relis-archive.iro.umontreal.ca",
+    "features": {
+      "planReviewTitle": "Plan The Review",
+      "planReviewBody": "ReLis feature a domain specific language to define a protocol that will guide the process of conducting the review.",
+      "importArticlesTitle": "Import Articles",
+      "importArticlesBody": "ReLis allows you to manually add references or import a list of CSV, Bibex and EndNote files."
+    }
+  },
+  "features": {
+    "label": "Powerful Features",
+    "title": "Everything You Need For Systematic Reviews",
+    "subtitle": "ReLiS provides a comprehensive set of tools designed to make the systematic review process more efficient and accurate",
+    "cards": [
+      {
+        "heading": "Protocol Planning",
+        "description": "Define a domain-specified protocol that guides your systematic review process with customizable forms and fields"
+      },
+      {
+        "heading": "Import Articles",
+        "description": "Import from CSV, BibTeX, or EndNote. Organize and categorize articles with advanced filtering options"
+      },
+      {
+        "heading": "Collaborative Workflow",
+        "description": "Work seamlessly with multiple reviewers, assign specific tasks, and track overall progress"
+      },
+      {
+        "heading": "Analytics & Reports",
+        "description": "Generate comprehensive reports and visualizations based on your review data."
+      },
+      {
+        "heading": "Cloud Access",
+        "description": "Access your projects from anywhere with secure, reliable cloud-based storage"
+      },
+      {
+        "heading": "Time Savings",
+        "description": "Save up to 60% of your time with automated screening, data extraction, and conflict resolution"
+      }
+    ]
+  }
+}
