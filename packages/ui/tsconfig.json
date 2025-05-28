@@ -1,8 +1,0 @@
-{
-  "extends": "@repo/typescript-config/react-library.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["src", "index.ts", "../../apps/frontend/app/ui/animatedBubble.tsx", "../../apps/frontend/app/ui/demoProgress.tsx", "../../apps/frontend/app/ui/featurecards.tsx", "../../apps/frontend/app/ui/inputFields.tsx", "../../apps/frontend/app/ui/progresSteps.tsx", "../../apps/frontend/app/ui/signinButtons.tsx"],
-  "exclude": ["node_modules", "dist"]
-}
