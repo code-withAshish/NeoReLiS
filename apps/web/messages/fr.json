@@ -1,0 +1,77 @@
+{
+  "signup": {
+    "siteName": "ReLis",
+    "tagline": "Votre Compagnon de Revue Systématique",
+    "title": "Créer un Compte",
+    "subtitle": "Entrez vos informations pour créer votre compte",
+    "createAccountButton": "Créer un Compte",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "inputFields": {
+      "email": "Adresse e-mail",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmez le mot de passe"
+    }
+  },
+  "navbar": {
+    "siteName": "ReLis",
+    "navLinks": {
+      "home": "Accueil",
+      "features": "Fonctionnalités",
+      "documentation": "Documentation",
+      "about": "À propos"
+    },
+    "logIn": "Se connecter",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "Outil de revue systématique de la littérature",
+    "headline": "Accélérez Vos Revues Systématiques",
+    "subheadline": "ReLis simplifie le processus de revue systématique avec des outils puissants de planification, de recherche et d’analyse. Gagnez du temps et améliorez la précision de vos recherches.",
+    "getStarted": "Commencer maintenant",
+    "watchDemo": "Voir la démo"
+  },
+  "newReleases": {
+    "title": "Nouvelles Versions",
+    "announcementTitle": "Annonce de Nouvelle Version !!",
+    "announcementBody": "Nous sommes ravis d’annoncer la dernière version de notre projet. Vous pouvez utiliser vos identifiants existants des versions précédentes pour accéder aux nouvelles fonctionnalités. Veuillez noter que les projets des versions précédentes ne sont pas importés mais restent accessibles à relis-archive.iro.umontreal.ca",
+    "features": {
+      "planReviewTitle": "Planifier La Revue",
+      "planReviewBody": "ReLis propose un langage spécifique au domaine pour définir un protocole qui guidera le processus de réalisation de la revue.",
+      "importArticlesTitle": "Importer Des Articles",
+      "importArticlesBody": "ReLis vous permet d’ajouter manuellement des références ou d’importer une liste de fichiers CSV, BibTeX et EndNote."
+    }
+  },
+  "features": {
+    "label": "Fonctionnalités Puissantes",
+    "title": "Tout Ce Qu'il Vous Faut Pour Les Revues Systématiques",
+    "subtitle": "ReLis offre un ensemble complet d’outils conçus pour rendre le processus de revue systématique plus efficace et précis",
+    "cards": [
+      {
+        "heading": "Planification Du Protocole",
+        "description": "Définissez un protocole spécifique au domaine qui guide votre processus de revue systématique avec des formulaires et des champs personnalisables"
+      },
+      {
+        "heading": "Importer Des Articles",
+        "description": "Importez depuis CSV, BibTeX ou EndNote. Organisez et catégorisez les articles avec des options de filtrage avancées"
+      },
+      {
+        "heading": "Travail Collaboratif",
+        "description": "Collaborez facilement avec plusieurs réviseurs, assignez des tâches spécifiques et suivez la progression globale"
+      },
+      {
+        "heading": "Analyses et Rapports",
+        "description": "Générez des rapports et des visualisations complètes basées sur les données de votre revue"
+      },
+      {
+        "heading": "Accès Cloud",
+        "description": "Accédez à vos projets depuis n’importe où grâce à un stockage cloud sécurisé et fiable"
+      },
+      {
+        "heading": "Gain de Temps",
+        "description": "Économisez jusqu’à 60 % de votre temps grâce au tri automatisé, à l’extraction de données et à la résolution de conflits"
+      }
+    ]
+  }
+}

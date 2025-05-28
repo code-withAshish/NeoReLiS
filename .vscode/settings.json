@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit", // Fixes everything it can (including ESLint)
+        "source.fixAll.eslint": "explicit" // Explicitly runs ESLint fixes on save
+    },
+    "eslint.useFlatConfig": true, // Required if you're using ESLint flat config
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        } // Auto-detects monorepo subdirectories with ESLint configs
+    ]
+}
