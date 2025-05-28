@@ -1,13 +1,19 @@
+import { Features } from "@/components/Features";
+import { Hero } from "@/components/Hero";
+import { Navbar } from "@/components/Navbar";
+import { NewReleases } from "@/components/NewReleases";
+
 export const metadata = {
-  title: "Store | Kitchen Sink",
+  title: "Relis - Home",
 };
 
 export default function Home() {
   return (
-    <div>
-      <h1>
-        <span>Kitchen Sink</span>
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <NewReleases />
+      <Features />
+    </>
   );
 }
